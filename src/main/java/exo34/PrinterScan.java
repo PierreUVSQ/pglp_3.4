@@ -1,6 +1,6 @@
 package exo34;
 
-public interface Printer {
+public interface PrinterScan {
 
 	public void print() ;
 	public void scan() ;

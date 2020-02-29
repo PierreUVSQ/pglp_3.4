@@ -1,6 +1,6 @@
 package exo34;
 
-public class SimplePrinter implements Printer{
+public class SimplePrinter implements PrinterScan, PrinterCopy, PrinterFax, PrinterPrint{
 
 	@Override
 	public void print() {};
@@ -8,7 +8,10 @@ public class SimplePrinter implements Printer{
 	@Override
 	public void scan() {
 		
+		
+		
 	}
+	
 	@Override
 	public void copy() {
 		
