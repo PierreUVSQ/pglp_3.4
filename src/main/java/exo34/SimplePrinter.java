@@ -1,6 +1,8 @@
 package exo34;
 
-public class SimplePrinter implements PrinterScan, PrinterCopy, PrinterFax, PrinterPrint{
+import java.util.List;
+
+public class SimplePrinter implements PrinterScan, PrinterCopy, PrinterFaxList, PrinterPrint{
 
 	@Override
 	public void print() {};
@@ -19,7 +21,8 @@ public class SimplePrinter implements PrinterScan, PrinterCopy, PrinterFax, Prin
 	}
 	
 	@Override
-	public void fax() {
+	public void fax(List<Document> l) {
+		
 		
 	}
 }
